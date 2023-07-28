@@ -102,7 +102,7 @@
 
         <!-- Random Number -->
         <div>
-            <x-input-label for="random_num" :value="__('Random Number')" />
+            <x-input-label for="random_num" :value="__('Code')" />
             <x-text-input id="random_num" class="block mt-1 w-full" type="text" name="random_num" :value="old('random_num')"
                 required />
             <x-input-error :messages="$errors->get('random_num')" class="mt-2" />
