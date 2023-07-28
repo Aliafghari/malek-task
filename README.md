@@ -65,19 +65,31 @@ php artisan schedule:work
 APP_URL=http://localhost:8000
 
 DB_CONNECTION=mysql
+<br>
 DB_HOST=127.0.0.1
+<br>
 DB_PORT=3306
+
 DB_DATABASE=malek-task
+<br>
 DB_USERNAME=root
+<br>
 DB_PASSWORD=
 
 MEMCACHED_HOST=127.0.0.1
 
 MAIL_MAILER=smtp
+<br>
 MAIL_HOST=localhost
+<br>
 MAIL_PORT=1025
+<br>
 MAIL_USERNAME=null
+<br>
 MAIL_PASSWORD=null
+<br>
 MAIL_ENCRYPTION=null
+<br>
 MAIL_FROM_ADDRESS="hello@example.com"
+<br>
 MAIL_FROM_NAME="${APP_NAME}"
